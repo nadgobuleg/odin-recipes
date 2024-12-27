@@ -5,22 +5,43 @@ body {
     text-align: center;
 }
 
-h1 {
-    color: green;
+.wrap {
+    
+    padding: 0;
+    margin: 0;
 }
 
-li {
+h1 {
+    color: darkgreen;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+ul {
+    margin-left: -40px;
+}
+
+.main-list li {
     list-style-type: none;
+    background-color: rgb(105, 227, 131)   ;
+    display: inline-block;
+    width: 100px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
 .main-link {
-    color: gray;
     text-decoration: none;
+    color: darkred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.main-link:hover {
-    font-weight: bold;
-    font-style: italic;
+.main-list li:hover {
+    background-color: yellow;
+    box-shadow: 1px 1px 1px darkgreen;
 }
 
 /* recipe page */
